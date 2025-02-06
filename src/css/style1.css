@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: black;
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+
+
+
+.main {
+    display: flex;
+    background: url(/src/img/bg2.png) no-repeat center center;
+}
+
+
+
+.character-img {
+    height: 400px;
+    width: 300px;
+}
+
+
+.center {
+    margin-left: 50px;
+}
+
+
+
+.skin-img {
+    margin-top: 15px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+}
+
+
+
+.social-icon {
+    height: 30px;
+
+}
+
+.social p {
+    font-size: 13px;
+    color: #ccc;
+}
+
+
+.contact p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.valve {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f39c12;
+}
