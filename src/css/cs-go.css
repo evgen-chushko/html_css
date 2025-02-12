@@ -30,22 +30,27 @@ body {
 
 .main {
     display: flex;
-    background: url(/src/img/bg2.png) no-repeat center center;
+
+    background: url(/html_css/src/img/bg2.png) no-repeat center center;
 }
 
 
 
 .character-img {
     height: 400px;
-    width: 300px;
 }
 
+.terorr {
+    margin: 0 20px;
+}
 
 .center {
-    margin-left: 50px;
+    margin: 0px 20px;
 }
 
-
+.ct {
+    margin: 0 80px;
+}
 
 .skin-img {
     margin-top: 15px;
