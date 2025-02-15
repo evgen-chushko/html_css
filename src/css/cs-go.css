@@ -26,38 +26,18 @@ body {
 }
 
 
-
-
 .main {
     display: flex;
-
-    background: url(/html_css/src/img/bg-cs.png) no-repeat center center;
+    background: url(/html_css/src/img/bg-cs.png) no-repeat center center / cover;
+    justify-content: space-around;
 }
 
 
-
-.character-img {
-    height: 400px;
-}
-
-.terorr {
-    margin: 0 20px;
-}
-
-.center {
-    margin: 0px 20px;
-}
-
-.ct {
-    margin: 0 80px;
-}
-
-.skin-img {
-    margin-top: 15px;
-    width: 300px;
-    border: 2px solid white;
-    border-radius: 8px;
-
+.guns {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
 }
 
 
