@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: darkgrey;
 }
 
@@ -18,4 +18,90 @@ body {
 .main_links a:hover {
     transition: 0.5s;
     transform: scale(1.2);
+} */
+
+body {
+    font-family: Roboto;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav div {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section a {
+    text-decoration: none;
+}
+
+.project_main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project a {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background: #e68900;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }

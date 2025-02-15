@@ -40,7 +40,7 @@
     margin: 2px;
 }
 
-.nav {
+.sect {
     display: flex;
     justify-content: center;
     gap: 35px;
@@ -75,6 +75,11 @@
 .button-1:hover {
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+.button-2:not(:hover),
+.button-1:not(:hover) {
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .button-2:active,

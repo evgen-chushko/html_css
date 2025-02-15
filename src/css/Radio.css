@@ -11,7 +11,7 @@
 
 .promo {
     min-height: 800px;
-    background: url('../img/main_bg.jpg') center center / cover no-repeat;
+    background: url('/html_css/src/img/bg-radio.jpg') center center / cover no-repeat;
     padding: 22px 0 53px 0;
 }
 
