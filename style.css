@@ -1,25 +1,3 @@
-/* body {
-    background-color: darkgrey;
-}
-
-.main_links {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin-top: 250px;
-}
-
-.main_links a {
-    border: 5px solid black;
-    border-radius: 20px;
-    padding: 40px;
-}
-
-.main_links a:hover {
-    transition: 0.5s;
-    transform: scale(1.2);
-} */
-
 body {
     font-family: Roboto;
     background-color: #1a1a1a;
