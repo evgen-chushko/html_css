@@ -41,9 +41,6 @@ nav a:hover {
     text-align: center;
 }
 
-.section a {
-    text-decoration: none;
-}
 
 .project_main {
     display: flex;
@@ -79,7 +76,11 @@ nav a:hover {
 
 footer {
     background: #222;
-    text-align: center;
     padding: 20px;
     margin-top: 50px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
 }
