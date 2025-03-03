@@ -7,11 +7,12 @@ body {
 }
 
 header {
+    display: flex;
     background: #333;
     padding: 20px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1480px;
 }
 
 .logo {
@@ -83,4 +84,13 @@ footer {
 .icon {
     width: 25px;
     height: 25px;
+}
+
+.icon:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.icon:not(:hover) {
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
