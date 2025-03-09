@@ -111,9 +111,17 @@
 	text-transform: uppercase;
 }
 
+.img {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .promo__more-img {
 	display: block;
 	margin: 10px auto 0 auto;
+	width: 40px;
+	height: 40px;
+	background-image: url(/html_css/src/icons/down_icon-radio.svg);
 }
 
 .intensive {
@@ -155,6 +163,23 @@
 
 .intensive_img {
 	width: 100%;
+	width: 342px;
+	height: 201px;
+	background-image: url(/html_css/src/img/Icon\ 1.png);
+}
+
+.intensive_img1 {
+	width: 100%;
+	width: 342px;
+	height: 201px;
+	background-image: url(/html_css/src/img/Icon\ 2.png);
+}
+
+.intensive_img2 {
+	width: 100%;
+	width: 342px;
+	height: 201px;
+	background-image: url(/html_css/src/img/Icon\ 3.png);
 }
 
 .intensive_descr {
@@ -229,6 +254,37 @@
 	height: 118px;
 	background-color: #f9bf3b;
 	border-radius: 100%;
+
+}
+
+.skills__img1 {
+	width: 60px;
+	height: 60px;
+	background-image: url(/html_css/src/icons/radio.svg)
+}
+
+.skills__img2 {
+	width: 60px;
+	height: 49px;
+	background-image: url(/html_css/src/icons/optimization.svg)
+}
+
+.skills__img3 {
+	width: 50px;
+	height: 50px;
+	background-image: url(/html_css/src/icons/chart.svg)
+}
+
+.skills__img4 {
+	width: 60px;
+	height: 60px;
+	background-image: url(/html_css/src/icons/people.svg)
+}
+
+.skills__img5 {
+	width: 60px;
+	height: 60px;
+	background-image: url(/html_css/src/icons/wallet.svg)
 }
 
 .skills__desc {
@@ -245,7 +301,9 @@
 }
 
 .prize__img {
-	display: block;
+	width: 155px;
+	height: 161px;
+	background-image: url(/html_css/src/icons/present.svg);
 	margin: 0 auto;
 }
 
