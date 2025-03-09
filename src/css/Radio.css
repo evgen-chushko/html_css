@@ -378,3 +378,23 @@
 .footer .underlined {
 	text-decoration: underline;
 }
+
+
+.back_button {
+	display: flex;
+	position: fixed;
+	background: white;
+	border-radius: 20px;
+	width: 150px;
+	height: 50px;
+	bottom: 10px;
+	text-decoration: none;
+	color: white;
+	border: solid black;
+	z-index: 2;
+}
+
+.back_button svg {
+	margin: 0 auto;
+	margin-top: 8px;
+}
