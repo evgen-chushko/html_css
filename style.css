@@ -24,18 +24,19 @@ nav div {
     list-style: none;
     display: flex;
     gap: 15px;
+
+    a {
+        color: white;
+        font-size: 18px;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: #ff9800;
+    }
 }
 
-nav a {
-    color: white;
-    font-size: 18px;
-    transition: 0.3s;
-    text-decoration: none;
-}
 
-nav a:hover {
-    color: #ff9800;
-}
 
 .section {
     padding: 50px;
@@ -47,50 +48,53 @@ nav a:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+    
+    .project {
+        background: #444;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
+    
+    }
+    
+    .project img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .project a {
+        margin-top: 10px;
+        padding: 10px;
+        background: #ff9800;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .project a:hover {
+        background: #e68900;
+    }
 }
 
-.project {
-    background: #444;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
 
-}
-
-.project img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.project a {
-    margin-top: 10px;
-    padding: 10px;
-    background: #ff9800;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.project a:hover {
-    background: #e68900;
-}
 
 footer {
     background: #222;
     padding: 20px;
     margin-top: 50px;
+    
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .icon:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    
+    .icon:not(:hover) {
+        transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
 }
 
-.icon {
-    width: 25px;
-    height: 25px;
-}
-
-.icon:hover {
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-
-.icon:not(:hover) {
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
